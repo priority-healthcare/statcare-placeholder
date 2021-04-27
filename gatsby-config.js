@@ -5,6 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "StatCare",
+    logoUrl:
+      "https://res.cloudinary.com/agoraservices/q_auto,f_auto,w_300/StatCare/Stat-Care-Ambulance_Logo_FINAL_VERT_fv55q4.png",
+  },
+  plugins: [`gatsby-plugin-styled-components`],
 }

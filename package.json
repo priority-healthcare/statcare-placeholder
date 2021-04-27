@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -14,11 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "babel-plugin-styled-components": "^1.12.0",
+    "fontsource-exo-2": "^4.0.0",
     "gatsby": "^3.3.1",
+    "gatsby-plugin-styled-components": "^4.3.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.3"
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.9",
     "prettier": "2.2.1"
   },
   "repository": {
