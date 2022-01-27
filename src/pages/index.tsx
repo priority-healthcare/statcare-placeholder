@@ -12,9 +12,7 @@ const LogoStyles = styled.img`
     width: unset;
   }
   
-  <h2 class="pages__AnnouncementStyles-sc-1rmyqsz-1 hUmrzZ" style="
-    margin-top: 98px;
-">Site coming soon</h2>
+
 `
 
 const AnnouncementStyles = styled.h2`
