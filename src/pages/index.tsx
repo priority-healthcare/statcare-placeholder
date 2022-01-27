@@ -7,7 +7,7 @@ import GlobalStyles, { PageMargin } from "../GlobalStyles"
 const LogoStyles = styled.img`
   width: 90%;
   display: block;
-  margin: 20px auto 75px;
+  margin: 20px auto 70px;
   @media screen and (min-width: 400px) {
     width: unset;
   }
