@@ -35,7 +35,7 @@ export default function Home({ data }) {
       <div id="StickyFooter--body">
         <PageMargin>
           <LogoStyles src={pageData.logoUrl} alt={pageData.title} />
-          <AnnouncementStyles>Site coming soon</AnnouncementStyles>
+          <AnnouncementStyles>Site coming soon1</AnnouncementStyles>
         </PageMargin>
       </div>
       <Footer />
