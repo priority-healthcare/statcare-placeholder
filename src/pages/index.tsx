@@ -12,6 +12,8 @@ const LogoStyles = styled.img`
     width: unset;
   }
   
+<div> hi </div>
+  
 
 const AnnouncementStyles = styled.h2`
   display: block;
