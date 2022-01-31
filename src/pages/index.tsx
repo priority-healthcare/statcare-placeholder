@@ -36,7 +36,7 @@ export default function Home({ data }) {
         <PageMargin>
           <LogoStyles src={pageData.logoUrl} alt={pageData.title} />
           <AnnouncementStyles>Site coming soon!!</AnnouncementStyles>
-          test 10
+          test 12
         </PageMargin>
       </div>
       <Footer />
