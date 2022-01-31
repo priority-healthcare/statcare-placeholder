@@ -35,7 +35,7 @@ export default function Home({ data }) {
       <div id="StickyFooter--body">
         <PageMargin>
           <LogoStyles src={pageData.logoUrl} alt={pageData.title} />
-          <AnnouncementStyles>Site coming soon hi</AnnouncementStyles>
+          <AnnouncementStyles>Site coming soonj</AnnouncementStyles>
           test 12
         </PageMargin>
       </div>
@@ -54,4 +54,3 @@ export const query = graphql`
     }
   }
 `
-Hello world
