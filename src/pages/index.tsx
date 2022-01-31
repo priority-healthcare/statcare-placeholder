@@ -43,21 +43,20 @@ export default function Home({ data }) {
   )
 }
 
-
   return (
     <>
       <GlobalStyles />
       <div id="StickyFooter--body">
         <PageMargin>
           <LogoStyles src={pageData.logoUrl} alt={pageData.title} />
- c
+          <AnnouncementStyles>Site coming soon!!</AnnouncementStyles>
+          test 12
         </PageMargin>
       </div>
       <Footer />
     </>
   )
 }
-
 
 export const query = graphql`
   query {
