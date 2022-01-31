@@ -35,14 +35,29 @@ export default function Home({ data }) {
       <div id="StickyFooter--body">
         <PageMargin>
           <LogoStyles src={pageData.logoUrl} alt={pageData.title} />
-          <AnnouncementStyles>Site coming sooon</AnnouncementStyles>
-          <AnnouncementStyles>Site comming now</AnnouncementStyles>
+ c
         </PageMargin>
       </div>
       <Footer />
     </>
   )
 }
+
+
+  return (
+    <>
+      <GlobalStyles />
+      <div id="StickyFooter--body">
+        <PageMargin>
+          <LogoStyles src={pageData.logoUrl} alt={pageData.title} />
+ c
+        </PageMargin>
+      </div>
+      <Footer />
+    </>
+  )
+}
+
 
 export const query = graphql`
   query {
@@ -54,3 +69,4 @@ export const query = graphql`
     }
   }
 `
+
