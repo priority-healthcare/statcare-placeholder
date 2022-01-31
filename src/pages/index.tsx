@@ -11,9 +11,7 @@ const LogoStyles = styled.img`
   @media screen and (min-width: 400px) {
     width: unset;
   }
-  
-<div> hi </div>
-  
+    
 
 const AnnouncementStyles = styled.h2`
   display: block;
