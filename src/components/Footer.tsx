@@ -13,7 +13,7 @@ const Footer = () => {
   const year = new Date().getFullYear()
   return (
     <FooterStyles id="SiteFooter">
-      <PageMargin>&copy; {year} StatCare</PageMargin>
+      <PageMargin>&copy; {year} StatCare.</PageMargin>
     </FooterStyles>
   )
 }
